@@ -44,7 +44,7 @@ $result = $conn->query($sql);
         <label>Cari hobi: </label>
         <input type="text" name="search" value="<?= htmlspecialchars($search) ?>">
         <button type="submit">Search</button>
-        <a href="soal2b.php">Reset</a>
+        <a href="soal2a.php">Reset</a>
     </form>
 
     <!-- Tabel hasil -->
